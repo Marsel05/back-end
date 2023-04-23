@@ -1,0 +1,46 @@
+#header {
+  padding: 30px 0;
+  background: black;
+
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &--nav {
+      a {
+        color: white;
+        margin: 0 20px;
+        font-weight: 400;
+        font-size: 14px;
+      }
+    }
+
+    &--btn {
+      &__btn {
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        text-align: center;
+        color: #40AB7E;
+        padding: 10px 40px;
+        border: 2px solid #40AB7E;
+        border-radius: 30px;
+        background: black;
+      }
+
+      &__btn2{
+        font-family: 'IBM Plex Sans', sans-serif;
+        padding: 10px 30px;
+        font-weight: 400;
+        font-size: 14px;
+        text-align: center;
+        color: #070707;
+        background: #7CBA72;
+        border-radius: 30px;
+
+
+      }
+    }
+  }
+}
